@@ -4,7 +4,7 @@
         // Check if the browser supports Web Speech API
         if ('webkitSpeechRecognition' in window) {
             recognition = new webkitSpeechRecognition();
-            recognition.lang = 'ar-SA'; // Arabic language
+            recognition.lang = 'en-US'; // ISO Language Code : http://www.lingoes.net/en/translator/langcode.htm
             recognition.interimResults = false; // Only show final results
             recognition.continuous = true; // Keep listening until stopped
 
