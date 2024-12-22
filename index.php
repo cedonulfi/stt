@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speech to Text (Arabic)</title>
+    <title>Speech to Text</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -26,8 +26,8 @@
     </style>
 </head>
 <body>
-    <h1>Speech to Text (Arabic)</h1>
-    <p>Click the button and speak in Arabic to see the transcription.</p>
+    <h1>Speech to Text</h1>
+    <p>Click the button and speak to see the transcription.</p>
     <button id="start-btn">Start Recording</button>
     <button id="stop-btn" disabled>Stop Recording</button>
 
